@@ -1,5 +1,7 @@
 # The Generalized Van Cittert-Zernike Schell propagator
 
+![USAF animation](assets/usaf.gif)
+
 This is a simplified repository showcasing different functionalities of the
 GVS propagator, which is an efficient algorithm for simulating partially
 coherent light. The model uses the Van Cittert-Zernike theorem to find the
