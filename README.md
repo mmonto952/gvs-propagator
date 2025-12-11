@@ -36,4 +36,20 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 ## 📖 Citation
 
-The citation for this work will be available once the article has been published.
+Bibtex entry for [GVS](https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-22-46313):
+
+```text
+@article{Montoya2025GeneralizedLight,
+    title = {{Generalized Van Cittert-Zernike Schell propagator: an efficient algorithm for simulating partially coherent light}},
+    year = {2025},
+    journal = {Optics Express},
+    author = {Montoya, Manuel and Lopera, Maria J. and Nie, Yunfeng and Blinder, David},
+    number = {22},
+    month = {11},
+    pages = {46313--46325},
+    volume = {33},
+    publisher = {Optica Publishing Group},
+    doi = {10.1364/OE.571673},
+    issn = {1094-4087},
+}
+```
