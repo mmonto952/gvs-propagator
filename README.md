@@ -12,12 +12,6 @@ pattern produced at a given propagation distance, not limited to the far field.
 The repository also contains an example of how to use the GVS propagator to
 simulate a computer-generated holography using Pytorch.
 
-<center>
-<video width="320" height="320" controls>
-  <source src="assets/cat_fish.mp4" type="video/mp4">
-</video>
-</center>
-
 ## 🗂️ Repository Structure
 
 These are the files to take a look at 👀:
