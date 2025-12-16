@@ -10,7 +10,10 @@ and it then uses the generalized Schell’s theorem to compute the diffraction
 pattern produced at a given propagation distance, not limited to the far field.
 
 The repository also contains an example of how to use the GVS propagator to
-simulate a computer-generated holography using Pytorch.
+simulate a computer-generated hologram using Pytorch.
+
+https://github.com/user-attachments/assets/723ef206-0f53-45b7-ad6f-021dcce40fff
+
 
 ## 🗂️ Repository Structure
 
