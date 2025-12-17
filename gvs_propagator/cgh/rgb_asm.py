@@ -43,7 +43,7 @@ def forward_model(
         mode="bilinear",
     )[0, 0]
     complex_coherence_factor = compute_complex_coherence_factor(
-        CenterCrop([nx_source_numerical, nx_source_numerical])(source_guess_interpolated)
+        CenterCrop([nx_source_numerical * 2, nx_source_numerical * 2])(source_guess_interpolated)
     )
     real = interpolate(
         torch.real(complex_coherence_factor)[torch.newaxis, torch.newaxis],
