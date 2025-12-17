@@ -2,8 +2,10 @@ import numpy as np
 from numpy.typing import NDArray
 from scipy.ndimage import zoom
 
+from gvs_propagator.types import ArrayLike
 
-def normalize(array: NDArray) -> NDArray:
+
+def normalize(array: ArrayLike) -> ArrayLike:
     return array / abs(array).max()
 
 
