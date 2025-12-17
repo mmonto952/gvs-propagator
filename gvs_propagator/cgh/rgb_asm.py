@@ -46,12 +46,12 @@ def forward_model(
         CenterCrop([nx_source_numerical, nx_source_numerical])(source_guess_interpolated)
     )
     real = interpolate(
-        torch.real(complex_coherence_factor)[None, None],
+        torch.real(complex_coherence_factor)[torch.newaxis, torch.newaxis],
         size=object_phase.size(),
         mode="bilinear",
     )[0, 0]
     imag = interpolate(
-        torch.imag(complex_coherence_factor)[None, None],
+        torch.imag(complex_coherence_factor)[torch.newaxis, torch.newaxis],
         size=object_phase.size(),
         mode="bilinear",
     )[0, 0]
