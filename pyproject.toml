@@ -21,10 +21,13 @@ torchvision = "^0.24.1"
 tqdm = "^4.67.1"
 ipywidgets = "^8.1.8"
 jupyter = "^1.1.1"
+scipy-stubs = "~=1.17.1"
+torchmetrics = "^1.9.0"
 
 
 [tool.poetry.group.dev.dependencies]
 pretty-jupyter = "^2.0.8"
+setuptools = "<82"
 
 [build-system]
 requires = ["poetry-core"]

@@ -10,10 +10,10 @@ def normalize(array: ArrayLike) -> ArrayLike:
 
 
 def crop_center(
-        array: NDArray,
+        array: ArrayLike,
         crop_height: int | None = None,
         crop_width: int | None = None
-) -> NDArray:
+) -> ArrayLike:
     y, x = array.shape
     if crop_height is None:
         crop_height = y // 2
@@ -95,5 +95,10 @@ def multiply_spherical_wavefront(
     k = 2 * np.pi / wavelength
     r = np.sqrt((x - xi) ** 2 + (y - eta) ** 2 + z ** 2)
     return object * np.exp(1j * k * r) / r
+
+
+def psnr(y_true: ArrayLike, y_pred: ArrayLike) -> float:
+    return 10 * np.log10(1 / mean_squared_error(normalize(y_true), normalize(y_pred)))
+
 
 mean_squared_error = lambda x, y: np.mean((x - y) ** 2)
