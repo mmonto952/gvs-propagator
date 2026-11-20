@@ -1,31 +1,3 @@
-# Generalized Van Cittert-Zernike Schell propagator
-
-![USAF animation](assets/usaf.gif)
-
-This is a simplified repository showcasing different functionalities of the
-GVS propagator, which is an efficient algorithm for simulating partially
-coherent light. The model uses the Van Cittert-Zernike theorem to find the
-complex coherence factor from a light source reaching the object plane,
-and it then uses the generalized Schell’s theorem to compute the diffraction
-pattern produced at a given propagation distance, not limited to the far field.
-
-
-# CGH using the GVS propagator
-
-The repository also contains an example of how to use the GVS propagator to
-simulate a computer-generated hologram using Pytorch.
-
-https://github.com/user-attachments/assets/723ef206-0f53-45b7-ad6f-021dcce40fff
-
-
-# Partially Coherent CGH using a Scanning Laser Projector
-
-This repository also contains the implementation of a partially spatially
-coherent propagation algorithm based on GVS, modified to efficiently model
-a projector's light-scanning process.
-
-![LSA vs Exhaustive](assets/lsa-vs-exhaustive.png)
-
 # 🗂️ Repository Structure
 
 These are the files to take a look at 👀:
@@ -45,6 +17,34 @@ These are the files to take a look at 👀:
 - 🚀 Take a look at the exported HTML version of the [GVS propagator notebook](https://mmonto952.github.io/gvs-propagator/).
 - 🚀 Take a look at the exported HTML version of the [CGH using GVS notebook](https://mmonto952.github.io/partially-coherent-cgh/).
 - 🚀 Take a look at the exported HTML version of the [Scanning Laser Projector notebook](https://mmonto952.github.io/projector/).
+
+## Generalized Van Cittert-Zernike Schell propagator
+
+![USAF animation](assets/usaf.gif)
+
+This is a simplified repository showcasing different functionalities of the
+GVS propagator, which is an efficient algorithm for simulating partially
+coherent light. The model uses the Van Cittert-Zernike theorem to find the
+complex coherence factor from a light source reaching the object plane,
+and it then uses the generalized Schell’s theorem to compute the diffraction
+pattern produced at a given propagation distance, not limited to the far field.
+
+
+## CGH using the GVS propagator
+
+The repository also contains an example of how to use the GVS propagator to
+simulate a computer-generated hologram using Pytorch.
+
+https://github.com/user-attachments/assets/723ef206-0f53-45b7-ad6f-021dcce40fff
+
+
+## Partially Coherent CGH using a Scanning Laser Projector
+
+This repository also contains the implementation of a partially spatially
+coherent propagation algorithm based on GVS, modified to efficiently model
+a projector's light-scanning process.
+
+![LSA vs Exhaustive](assets/lsa-vs-exhaustive.png)
 
 # 📦 Required Packages
 
